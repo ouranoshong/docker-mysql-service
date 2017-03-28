@@ -15,4 +15,5 @@ services:
   volumes_data:
     image: tianon/true
     volumes:
+      - ./shares:/shares
       - ./data/mysql:/var/lib/mysql
